@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background: #ffc567;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-text-container {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  transform: scale(175%);
+  margin-top: -200px;
+  
+}
+
+.let_s_talk_about_it_over_an {
+  text-align: left;
+  font-size: 15px;
+  font-family: "Trajan Pro";
+  color: #ffc567;
+  font-weight: bold;
+  line-height: 20%;
+  margin-bottom: -28px; 
+  margin-left: -20px;
+}
+
+.espresso_ {
+  font-size: 76px;
+  font-family: "Calibri";
+  color: #1a1515;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center; 
+  margin-bottom: -20px; 
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  letter-spacing: -3px;
+}
+  
+.a_mental_health_initiative {
+  font-size: 17px;
+  font-family: "Calibri Light";
+  color: rgb(255, 255, 255);
+  text-transform: lowercase;
+  line-height: 1.2;
+  margin-left: 80px
+}
+
+.coffee {
+  background-image: url("coffee.png");
+  position: absolute;
+  left: 47%;
+  top: 50%;
+  width: 1246px;
+  height: 807px;
+  transform: translate(-50%, -50%) scale(1.25);
+  z-index: 1;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  transition: opacity 0.3s ease; 
+  opacity: 1;
+}
+
+.additional-text{
+font-size: 30px;
+font-family: "Calibri Light";
+color: rgb(255, 255, 255);
+line-height: 0.8;
+margin-top: 500px;
+width: 550px;  
+text-align: center;
+z-index: 4;
+margin-top: 100px ;
+
+}
+
+#freedom-wall-container {
+  position: absolute;
+  z-index: 4;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  transform: scale(175%);
+  margin-top: -200px;
+  z-index: 6;
+}
